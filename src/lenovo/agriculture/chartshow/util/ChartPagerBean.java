@@ -1,14 +1,20 @@
-package com.example.chartshow.util;
+package lenovo.agriculture.chartshow.util;
 
 import java.util.LinkedList;
 
 /**
- * 曲线图表信息类，存储两个曲线图的信息
+ * 曲线图表信息类，存储曲线图的信息
  * 
  * @author asus
  *
  */
 public class ChartPagerBean {
+	/**
+	 * 构造函数
+	 * 
+	 * @param majorName
+	 *            主曲线图的名称
+	 */
 	public ChartPagerBean(String majorName) {
 		this.majorName = majorName;
 	}
